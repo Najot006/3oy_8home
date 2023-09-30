@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
+body {
+    background: #F1F1EB;
+}
+
+.header {
+    width: 100%;
+}
+
+.container {
+    padding: 10px 60px;
+}
+
+.div__header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    margin-top: 40px;
+}
+
+.div__ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hdr__ul {
+    display: flex;
+    gap: 40px;
+}
+
+.hdr__li a {
+    text-decoration: none;
+    color: #4B321D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: "Regular";
+
+}
+
+.hdr__li {
+    list-style: none;
+}
+
+.text-p {
+    max-width: 1269px;
+    margin-top: 130px;
+}
+
+.text-p p {
+    color: #4B321D;
+    font-family: "Regular";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.header_img2 {
+    max-width: 100%;
+    margin-top: 136px;
+    padding: 0 40px;
+}
+
+@media (min-width: 990px) and (max-width:1200px) {
+    .header {
+        .container {
+            padding: 10px 10px;
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width:1200px) {
+    .header {
+        .container {
+            padding: 10px 2px;
+        }
+
+        .div__header {
+            .hdr__ul {
+                ul {
+                    font-size: 2px;
+                    gap: 10px;
+                }
+            }
+        }
+
+        .text-p p {
+            font-size: 55px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 447) {
+    .header {
+        .container {
+            padding: 5px 0px;
+        }
+
+        .div__header {
+            ul {
+                font-size: 2px;
+            }
+        }
+
+        .text-p p {
+            font-size: 45px;
+        }
+    }
+}
+
+@media (max-width: 446px) {
+    .header {
+        .container {
+            padding: 2px 0px;
+        }
+
+        .div__header {
+            ul {
+                font-size: 1px;
+            }
+        }
+
+        .text-p p {
+            font-size: 30px;
+        }
+    }
+}
+
+section h1 {
+    color: #4B321D;
+    font-family: "Regular";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    margin-top: 84px;
+}
+
+section button {
+    width: 162px;
+    height: 50px;
+    margin-top: 56px;
+    background: #F1F1EB;
+    border-radius: 3px;
+    border: 2px solid #4B321D;
+}
+
+.bac_hdr {
+    margin-top: 100px;
+}
+
+.title h1 {
+    color: #4B321D;
+    font-family: "Regular";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115.769%;
+    margin-left: 100px;
+    display: flex;
+    gap: 90px;
+}
+
+.title button {
+    color: #4B321D;
+    font-family: "Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 144%;
+    margin-left: 100px;
+}
+
+.usha {
+    display: flex;
+}
+
+.title {
+    margin-top: 350px;
+}
+
+.misha {
+    width: 100%;
+    height: 476px;
+    border-radius: 16px;
+    background: #4B321D;
+    margin-top: 70px;
+}
+
+.misha-ka {
+    padding-top: 5px;
+    margin-left: 60px;
+}
+
+.misha h1 {
+    color: #F1F1EB;
+    font-family: "Regular";
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.misha p {
+    color: #F1F1EB;
+    font-family: "Regular";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 50px;
+}
+
+.kirewki {
+    width: 1440px;
+    height: 380px;
+    flex-shrink: 0;
+    background: #F1F1EB;
+    margin-left: 60px;
+}
+
+.kirewki button {
+    width: 128px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 2px solid #4B321D;
+}
+
+
+footer {
+    width: 100%;
+}
+
+.footer-meny {
+    margin: 100px 0;
+}
+
+.boxs-left img {
+    margin-top: 63px;
+}
+
+.boxs-left {
+    color: #4B321D;
+    font-family: "Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+.boxs {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.boxs-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #4B321D;
+    font-family: "Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    /* 160% */
+}
+
+.boxs-right p {
+    cursor: pointer;
+}
+
+.boxs-right .box {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
